@@ -3,3 +3,8 @@ export interface ITodo {
   title: string;
   completed: boolean;
 }
+
+export interface IFilterState {
+  filter: string;
+  setFilter: (value: string) => void;
+}
